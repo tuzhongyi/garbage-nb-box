@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  font-family: "Source Han Sans CN Normal";
+}
+
+.nb-box-testing {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  &-head {
+    height: 30px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-body {
+    width: 100%;
+    height: calc(100% - 30px - 20px);
+
+    .forms {
+      .form-item {
+        &-title {
+          width: 200px;
+        }
+      }
+    }
+
+  }
+
+
+
+}
